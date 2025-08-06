@@ -1,0 +1,23 @@
+/* Custom styles to ensure Inter font is applied and for general layout */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background for the page */
+}
+/* Ensure the main widget container takes full width on small screens */
+#widget-container {
+    width: 100%;
+    max-width: 500px; /* Max width for desktop */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem; /* Rounded corners for the container */
+    padding: 1.5rem;
+}
+/* Hide the main form content initially */
+#jotformContent {
+    display: none;
+}
